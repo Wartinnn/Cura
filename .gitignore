@@ -1,3 +1,31 @@
+# Ignore everything in resources/quality
+resources/quality/*
+# Unignore the creality folder and its contents
+!resources/quality/creality/
+!resources/quality/creality/**
+
+# Ignore everything in resources/extruders
+resources/extruders/*
+# Unignore file
+!resources/extruders/creality_base_extruder_0.def.json
+
+# Ignore everything in resources/definitions
+resources/definitions/*
+# Unignore file
+!resources/definitions/creality_ender6.def.json
+!resources/definitions/creality_base.def.json
+
+# Ignore everything in resources/variants
+resources/variants/*
+# Unignore file
+!resources/variants/creality/creality_ender6_0.2.inst.cfg
+!resources/variants/creality/creality_ender6_0.3.inst.cfg
+!resources/variants/creality/creality_ender6_0.4.inst.cfg
+!resources/variants/creality/creality_ender6_0.5.inst.cfg
+!resources/variants/creality/creality_ender6_0.6.inst.cfg
+!resources/variants/creality/creality_ender6_0.8.inst.cfg
+!resources/variants/creality/creality_ender6_1.0.inst.cfg
+
 # Compiled and generated things.
 build
 *.pyc
